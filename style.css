@@ -1,0 +1,23 @@
+button {
+    background-color: #ff7f50;
+    color: white;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px #888888;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #ff6347;
+    box-shadow: 4px 4px 10px #888888;
+    transform: translateY(-2px);
+  }
+  
+  .number {
+    font-size: 48px;
+    text-align: center;
+  }
+  
