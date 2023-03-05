@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post Your Question</title>
+    <Style>
+        body {
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.form-container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 30px;
+	text-align: center;
+}
+
+.form-container h1 {
+	color: #222;
+	font-size: 36px;
+	margin: 0 0 30px 0;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	padding: 12px;
+	margin: 0 0 20px 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	font-size: 16px;
+	resize: none;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	background-color
+}
+    </Style>
+	<link rel="stylesheet" type="text/css" href="PostQuestionStyle.css">
+</head>
+<body>
+	<div class="form-container">
+		<h1>Post Your Question</h1>
+		<form action="allPosts.html" method="post">
+			<textarea id="question" name="question" placeholder="Type your question here"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
