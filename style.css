@@ -167,6 +167,15 @@ nav {
     color: white;
   }
   
+  #aboutEduLearn{
+    padding-bottom:25px;
+  }
+
+  #madHacksTeam{
+    padding: 5%;
+    font-size: 50px;
+  }
+  
   .container {
     padding: 0 16px;
   }
@@ -460,3 +469,13 @@ nav {
     color: var(--white);
     background-color: var(--secondary);
   }
+
+  /* Posts */
+  #postBody{
+    margin-top: 150px;
+  }
+
+  #titlePost{
+    padding-bottom: 2%;
+  }
+  
