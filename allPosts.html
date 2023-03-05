@@ -239,6 +239,26 @@ nav {
   transform: translate(-50%, -50%);
 }
 
+.gallery {
+  display: flex; /* set the container to use flexbox */
+}
+
+.image {
+  flex: 1; /* set each image container to take up equal space */
+  text-align: center; /* center the image and description */
+  padding: 20px; /* add padding for spacing */
+}
+
+.image img {
+  max-width: 100%; /* set the image to scale down to fit the container */
+  height: auto; /* allow the image to maintain its aspect ratio */
+}
+
+.desc {
+  margin-top: 10px; /* add some spacing between the image and description */
+}
+
+
   </style>
 </head>
 
@@ -270,37 +290,53 @@ nav {
      
 
 <body>
+
+  <h1>Money Pool - $3,000</h1>
+
+  <div class="gallery">
+    <div class="image">
+      <img src="profile.JPG" alt="Image 1">
+      <div class="desc"><h2>1 - Ryan (350 New Tokens)</h2></div>
+    </div>
+    <div class="image">
+      <img src="tim.JPG" alt="Image 2">
+      <div class="desc"><h2>2 - Tim (200 New Tokens)</h2></div>
+    </div>
+    <div class="image">
+      <img src="matthew.JPG" alt="Image 3">
+      <div class="desc"><h2>3 - Daniel (125 New Tokens)</h2></div>
+    </div>
+  </div>
+  
+
   <h1>All Posts</h1>
   <a href="post.html">
   <div class="posts">
     <!-- Post 1 -->
     <div class="post">
-      <h2><a href="post.html">Lorem ipsum dolor</a></h2>
-      <p><a href="post.html">Lobortis scelerisque fermentum dui faucibus in. Odio ut 
-        enim blandit volutpat maecenas volutpat blandit aliquam etiam. 
-        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit.
-         Iaculis urna id volutpat lacus laoreet non curabitur gravida</a></p>
+      <h2><a href="post.html">COM ARTS 346</a></h2>
+      <h2><a href="post.html">50 Tokens</a></h2>
+      <p><a href="post.html">I'm planning to take a COM ARTS class at UW-Madison and was 
+        wondering what everyones thoughts were about COM ARTS 346. Any suggestions regarding professors? How are the exams? </a></p>
       <p class="post-likes">0 likes</p>
     </div>
     </a>
 
     <!-- Post 2 -->
     <div class="post">
-      <h2><a href="post.html">consectetur adipiscing</a></h2>
-      <p><a href="post.html">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Assumenda, minima exercitationem. Sapiente expedita laboriosam iure! 
-        Optio porro nam dolorem autem necessitatibus, aliquid non accusantium voluptatum. 
-        Distinctio quis obcaecati corrupti exercitationem!</a></p>
+      <h2><a href="post.html">CS400</a></h2>
+      <h2><a href="post.html">100 Tokens</a></h2>
+      <p><a href="post.html">I'm planning to take CS400 class at UW-Madison and was 
+        wondering what everyones thoughts were about it. How are the professors?</a></p>
       <p class="post-likes">0 likes</p>
     </div>
     </a>
 
     <!-- Post 3 -->
     <div class="post">
-      <h2><a href="post.html">Tellus orci ac auctor </a></h2>
-      <p><a href="post.html">Adipiscing elit pellentesque habitant morbi tristique senectus. 
-        Quis blandit turpis cursus in hac habitasse. Cursus eget nunc scelerisque viverra. 
-        Ultricies integer quis auctor elit.</a></p>
+      <h2><a href="post.html">Calculus 221</a></h2>
+      <h2><a href="post.html">200 Tokens</a></h2>
+      <p><a href="post.html">How do you take the integral of things being multiplied together?</a></p>
       <p class="post-likes">0 likes</p>
     </div>
     </a>
