@@ -239,6 +239,26 @@ nav {
   transform: translate(-50%, -50%);
 }
 
+.gallery {
+  display: flex; /* set the container to use flexbox */
+}
+
+.image {
+  flex: 1; /* set each image container to take up equal space */
+  text-align: center; /* center the image and description */
+  padding: 20px; /* add padding for spacing */
+}
+
+.image img {
+  max-width: 100%; /* set the image to scale down to fit the container */
+  height: auto; /* allow the image to maintain its aspect ratio */
+}
+
+.desc {
+  margin-top: 10px; /* add some spacing between the image and description */
+}
+
+
   </style>
 </head>
 
@@ -270,6 +290,25 @@ nav {
      
 
 <body>
+
+  <h1>Money Pool - $3,000</h1>
+
+  <div class="gallery">
+    <div class="image">
+      <img src="https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/278411752_361432972697864_3101489493262153735_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=w0NnUke70aAAX_-5cTX&_nc_ht=scontent-msp1-1.xx&oh=00_AfC7I-CW1vOkkkL3cvwGKPVed4BLMHFFJrZXiD_qXE7GUA&oe=640A089C" alt="Image 1">
+      <div class="desc"><h2>1 - Ryan (350 New Tokens)</h2></div>
+    </div>
+    <div class="image">
+      <img src="https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/278411752_361432972697864_3101489493262153735_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=w0NnUke70aAAX_-5cTX&_nc_ht=scontent-msp1-1.xx&oh=00_AfC7I-CW1vOkkkL3cvwGKPVed4BLMHFFJrZXiD_qXE7GUA&oe=640A089C" alt="Image 2">
+      <div class="desc"><h2>2 - Tim (200 New Tokens)</h2></div>
+    </div>
+    <div class="image">
+      <img src="https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/278411752_361432972697864_3101489493262153735_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=w0NnUke70aAAX_-5cTX&_nc_ht=scontent-msp1-1.xx&oh=00_AfC7I-CW1vOkkkL3cvwGKPVed4BLMHFFJrZXiD_qXE7GUA&oe=640A089C" alt="Image 3">
+      <div class="desc"><h2>3 - Daniel (125 New Tokens)</h2></div>
+    </div>
+  </div>
+  
+
   <h1>All Posts</h1>
   <a href="post.html">
   <div class="posts">
